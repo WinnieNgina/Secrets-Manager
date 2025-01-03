@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("https://0.0.0.0:5001", "http://0.0.0.0:5000");
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
     options.KnownProxies.Add(IPAddress.Parse("10.0.0.100"));
