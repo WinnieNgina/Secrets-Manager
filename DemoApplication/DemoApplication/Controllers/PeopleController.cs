@@ -1,6 +1,5 @@
 ﻿using DemoApplication.Models;
 using DemoApplication.Repository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DemoApplication.Controllers;

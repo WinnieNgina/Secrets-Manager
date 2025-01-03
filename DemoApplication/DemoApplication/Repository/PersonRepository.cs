@@ -1,7 +1,6 @@
 ﻿using DemoApplication.DataAccess;
 using DemoApplication.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace DemoApplication.Repository;
 

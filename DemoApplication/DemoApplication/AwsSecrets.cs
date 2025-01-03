@@ -12,8 +12,8 @@ public static class AwsSecrets
         GetSecretValueRequest secretRequest = new GetSecretValueRequest
         {
             SecretId = "production_DemoApplication_ConnectionStrings__DefaultConnection"
-        }; 
-        GetSecretValueResponse secretResponse = await client.GetSecretValueAsync(secretRequest);   
+        };
+        GetSecretValueResponse secretResponse = await client.GetSecretValueAsync(secretRequest);
         return secretResponse.SecretString;
     }
 }
